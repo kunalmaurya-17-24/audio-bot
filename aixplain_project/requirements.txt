@@ -1,2 +1,6 @@
 aixplain
 requests
+
+python-dotenv
+chardet
+ftfy

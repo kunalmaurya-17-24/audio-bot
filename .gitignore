@@ -1,0 +1,9 @@
+.env
+.DS_STORE
+.aixplain_cache/
+.venv/
+audios/
+logs/
+prompts/
+responses/
+features.md

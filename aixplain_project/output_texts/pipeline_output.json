@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "node_id": 3,
+            "label": "response",
+            "path": [
+                {
+                    "node_id": 0,
+                    "type": "INPUT"
+                },
+                {
+                    "node_id": 1,
+                    "type": "ASSET",
+                    "function": "speech-recognition"
+                },
+                {
+                    "node_id": 2,
+                    "type": "ASSET",
+                    "function": "text-generation"
+                },
+                {
+                    "node_id": 3,
+                    "type": "OUTPUT"
+                }
+            ],
+            "segments": [
+                {
+                    "index": 0,
+                    "success": true,
+                    "response": "https://aixplain-modelserving-data.s3.amazonaws.com/16b58ac6-fc6a-471b-a5f7-a601b07664e6.tmp?AWSAccessKeyId=ASIAXZSG5AU6UFP6IYPN&Expires=1742367848&Signature=zBzOK%2B%2FJyv9w%2F1nshiyrqIlzL8E%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEM3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIERGoE9w3GLdbFemTe9j8l4DBNSZ%2FOFLQL7SV0jg%2FhR1AiEA0%2Fmc3pjsl5tOClavrhN5mhMgZRVpmqz%2BDktYOJqZsIQqtAUIJRADGgw1MzU5NDU4NzI3MDEiDLVBJfWQ3u671Vl6diqRBQb11tOibYf%2FN5GFyrSYYA2FSBlOyQLS5CvT12czpl1UMMh%2FTfuVfT3btGC%2B4idXGxWYZFNLzFMiDDaVU1diTm7I6%2FN%2FH4Kz7mPSdCFyqM8%2FZ%2BN1YBWI3yslxuylfRMjB%2B%2FRM%2FlwRCxxoj8j0hgJ9Jvl9ljGQPWwKa7YOgIfA0zAl34gE1AnVZWCSb0nTWwThQeGcAY%2BqBuasTfJyq6U5sTM9HtJPG8FHn0CxS73Uv8Z%2BgK%2Fh061oJRx2RUhjaQ%2BAxv37Iuioo9oG9zAgO%2B2OIrH4LHin2vKZsHlW6j4Kn72BB4g4UPKMD%2B0ZDbQmc%2FWO2CD0jIJqS3CwOnolqafhQasscnya1SO7tA%2B24t4i4A8B0fW76OSaDG8ZMfm7h5tzw7jqHcUWD6aOwY9gX%2FWWonCS8Ykpsi1cUZUC3NZKXGq11tNSMUELZMJNysoo5D%2Bzgsv7EYIXuK5yyyXPYvKbqA4Zrdh%2Fi6uo0DaySjho3gKdBpsI4wUmwjQ6Uf978YQKB2QznsY2njfeSW%2FUZpeh6WXIPMdilIdaSXcgkUBJ1Oi5%2BkmmebLV%2FzQcbd4fJHoBv4fLoJ%2B5n8I%2FbzRoAaSw0o4qEe8AQXiqQPALDvhIkjpp%2FxwHVjxl1Njr8o7HmKwaEUVujCy%2FoaU6im6PYpVofkrnR1Amuh3PH0B7l1HW7ElAV391oZwRX8cISJnnUGMRbr4BF0hDC80cJ8ymM%2Bv2oy3VUkOiVWr26h7%2FdbB1C4SGRg8r1bUyztUM4b5u%2BGoj6BNtsV9%2BVROQPBq6fFg35sJIUoIcWo5HUufvOR%2BwL3fBwQ5nxqu0j074mwCpL4IAqPFwlKT%2FSbON5wMPC7X%2FAd4J2DiPAL%2FPLsFOgc6tyyN0DDqndm%2BBjqxAdoV8mSPfn9qmGVccfdQcqQnw7iw6A3E0Tn7tIPcxCVXe9n0MPcODBEzmxZBp2ztyuq4gp%2FPjqbWWo8Xh091qnofyS2joz6k8PfO06%2FE0%2BJsETVPkFPzepcBDsdTUSOzFcZWiALmZVL5LHizxJwFILa7PoL93WMzPaCnpb5DEhZKMi1OJC3W%2BGcRK9WlsPEFbuBkrPsvg2RJl%2Bbm24ZrUFJFIOTS0yVGLhUuK4fASmq6Lw%3D%3D",
+                    "is_url": true,
+                    "input_type": "text",
+                    "output_type": "text",
+                    "details": {},
+                    "length": 1652,
+                    "language": "en",
+                    "input_segment_info": [
+                        {
+                            "start": 0,
+                            "end": 4.3624375,
+                            "length": 4.3624375,
+                            "is_url": true,
+                            "type": "audio",
+                            "segment": "https://aixplain-platform-backend-temp.s3.amazonaws.com/temp/1742108595513-sample_audio.wav",
+                            "language": "en"
+                        }
+                    ]
+                }
+            ],
+            "is_segmented": false
+        }
+    ]
+}
